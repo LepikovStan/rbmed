@@ -243,3 +243,88 @@ address .phone .prefix {
     color: #fefefe;
 }
 /* downmenu (end) */
+
+/* footer (begin) */
+footer {
+    background: #353535;
+    padding: 40px 0 15px;
+}
+footer .l-col {
+    margin: 0 25px 0 0;
+    width: 300px;
+}
+footer .r-col {
+    width: 300px;
+}
+footer .fmenu {
+    width: 230px;
+}
+footer .cols + .cols {
+    margin: 30px 0 0;
+}
+footer .wrapper {
+    overflow: hidden;
+}
+/* footer (end) */
+
+/* fmenu (begin) */
+.fmenu {}
+.fmenu li {
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+.fmenu li a {
+    font-size: 13px;
+    color: #cbcbcb;
+}
+/* fmenu (end) */
+
+/* rss (begin) */
+.rss {}
+.rss h2 {
+    font: bold 18px arial;
+    color: #cbcbcb;
+}
+.rss h3 {
+    color: #cbcbcb;
+    font-size: 16px;
+}
+.rss input[type=text] {
+    color: #474747;
+    height: 30px;
+    font: italic 13px arial;
+    padding: 0 10px;
+    width: 280px;
+    border-radius: 6px;
+    border: none;
+}
+.rss input[type=submit] {
+    height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    background: url(../i/submitbg.png) repeat-x 0 0;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 0 0;
+}
+/* rss (end) */
+
+/* copy (begin) */
+.copy {
+    color: #fefefe;
+}
+/* copy (end) */
+
+/* delivery (begin) */
+.delivery {
+    color: #fefefe;
+}
+.delivery h4 {
+    font: bold 14px arial;
+}
+.delivery .city {
+    font-weight: bold;
+}
+/* delivery (end) */
