@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline:none;
+}
+html {
+    height: 100%;
+    font-size: 100.1%;
+}
+body {
+    font: 12px/1.333 arial;
+    height: 100%;
+}
+a img, fieldset {
+    border: 0;
+}
+a {
+    outline: none;
+    color: #a70328;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+}
+/*a:hover{
+	color:#3fa9f5;
+}*/
+li {
+    list-style: none;
+}
+table {
+	border-collapse: collapse;
+}
+/* html (begin) */
+article,aside,canvas,details,embed,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display: block;}
+command,datalist,keygen,mark,meter,progress,rp,rt,ruby,time,wbr {display: inline;}
+/* html (end) */
+
+/* wrapper (begin) */
+.wrapper {
+	width: 978px;
+	margin: 0 auto;
+	position: relative;
+}
+/* wrapper (end) */
+
+/* cols (begin) */
+.cols {}
+.cols:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.cols .l-col {
+	float: left;
+}
+.cols .r-col {
+	float: right;
+}
+/* cols (end) */
+
+/* header (begin) */
+header {
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+}
+header .logo {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin: -53px 0 0;
+}
+header address {
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+header .topBlock {
+    position: absolute;
+    top: 25px;
+}
+header .topBlock.request {
+    left: 385px;
+}
+header .topBlock.callback {
+    left: 610px;
+}
+header .lang {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+/* header (end) */
+
+/* lang (begin) */
+.lang {}
+.lang .active {
+    background: #c2c2c2;
+    color: #fff;
+    border-color: #797979 #aaaaaa #c2c2c2 #aaaaaa;
+}
+.lang a,
+.lang span {
+    display: inline-block;
+    line-height: 20px;
+    background: #ebeaea;
+    color: #2a2a2a;
+    text-decoration: none;
+    width: 26px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e4e4 #e1e0e0 #bbbaba #eae9e9;
+    text-align: center;
+    margin: 0 0 0 5px;
+}
+/* lang (end) */
+
+/* address (begin) */
+address {}
+address .phone {
+    display: block;
+    font: 18px/24px arial;
+    color: #262a1b;
+}
+address .phone .prefix {
+    font-size: 14px;
+    color: #707070;
+    margin: 0 5px 0 0;
+}
+/* address (end) */
+
+/* logo (begin) */
+.logo {}
+.logo img {
+    display: block;
+}
+/* logo (end) */
+
+/* topBlock (begin) */
+.topBlock {
+    position: relative;
+    text-align: center;
+    padding: 40px 0 0;
+    width: 180px;
+}
+.topBlock .icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.topBlock.request .icon {
+    background: url(../i/i.request.png) no-repeat 0 0;
+    width: 31px;
+    height: 40px;
+    margin: 0 0 0 -15px;
+}
+.topBlock.callback .icon {
+    background: url(../i/i.callback.png) no-repeat 0 0;
+    width: 27px;
+    height: 37px;
+    margin: 0 0 0 -13px;
+}
+.topBlock a {
+    font-size: 14px;
+    color: #2a2a2a;
+}
+.topBlock .text {
+    font: italic 11px arial;
+    color: #848484;
+}
+/* topBlock (end) */
+
+/* menu (begin) */
+.menu {
+    height: 68px;
+    background: #e8e6e6;
+    background: linear-gradient(top,  #e8e6e6,  #fdfdfd);
+    background: -webkit-linear-gradient(left top, left bottom, #e8e6e6, #fdfdfd);
+    background: -moz-linear-gradient(top,  #e8e6e6,  #fdfdfd);
+    background: -o-linear-gradient(top,  #e8e6e6,  #fdfdfd);
+    background: -ms-linear-gradient(top,  #e8e6e6,  #fdfdfd);
+}
+.menu ul {
+    width: 1010px;
+    float: right;
+}
+.menu:after,
+.menu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu ul li {
+    float: left;
+    text-transform: uppercase;
+    border-left: 1px solid #fdfdfd;
+    border-right: 1px solid #e8e6e6;
+}
+.menu ul li:last-child {
+    border-right: none;
+}
+.menu ul li:first-child {
+    border-left: none;
+}
+.menu ul li a {
+    padding: 0 20px;
+    display: block;
+    color: #2a2a2a;
+    font-size: 14px;
+}
+.menu ul li .aligner {
+    position: relative;
+    height: 68px;
+    width: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 -5px 0 0;
+}
+.menu ul li .text {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* menu (end) */
+
+/* downmenu (begin) */
+.downmenu {
+    background: #fe8400;
+}
+.downmenu ul {
+    overflow: hidden;
+}
+.downmenu ul li {
+    line-height: 50px;
+    float: left;
+    margin: 0 0 0 25px;
+    font-size: 14px;
+}
+.downmenu ul li:first-child {
+    margin: 0;
+}
+.downmenu ul li a {
+    color: #fefefe;
+}
+/* downmenu (end) */
