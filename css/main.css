@@ -226,6 +226,7 @@ address .phone .prefix {
 /* downmenu (begin) */
 .downmenu {
     background: #fe8400;
+    margin: 70px 0 0;
 }
 .downmenu ul {
     overflow: hidden;
@@ -328,3 +329,124 @@ footer .wrapper {
     font-weight: bold;
 }
 /* delivery (end) */
+
+/* content (begin) */
+.content {}
+.content > .cols .l-col {
+    width: 285px;
+}
+.content > .cols .r-col {
+    width: 648px;
+}
+/* content (end) */
+
+/* banners (begin) */
+.banners {
+    margin: 0 0 55px;
+}
+/* banners (end) */
+
+/* aside-menu (begin) */
+.aside-menu {
+    border: 1px solid #dfdfdf;
+    border-radius: 0 0 4px 4px;
+}
+.aside-menu .h {
+    margin: -1px -1px 20px;
+    text-align: center;
+    color: #fff;
+    font: bold 21px arial;
+    background: #f78100;
+    padding: 10px 0;
+    border-radius: 4px 4px 0 0;
+}
+.aside-menu .aside-list {
+    padding: 0 15px 15px;
+}
+/* aside-menu (end) */
+
+/* aside-list (begin) */
+.aside-list {}
+.aside-list > li:last-child {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.aside-list > li {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.aside-list > li .text {
+    font: bold 15px arial;
+    color: #2a2a2a;
+    position: relative;
+    cursor: pointer;
+}
+.aside-list > li .text:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 7px;
+    top: 50%;
+    right: 0;
+    margin: -2px 0 0;
+    background: url(../i/aside-menu-strs.png) no-repeat 0 -5px;
+}
+.aside-list > li.expanded .text:after {
+    width: 7px;
+    height: 5px;
+    margin: -1px 0 0;
+    background: url(../i/aside-menu-strs.png) no-repeat 0 0;
+}
+.aside-list .aside-sub-list {
+    display: none;
+    margin: 15px 0 0 20px;
+}
+.aside-list .expanded {
+    background: #ffffff;
+    border-color: #fff;
+}
+.aside-list .expanded .aside-sub-list {
+    display: block;
+}
+/* aside-list (end) */
+
+/* aside-sub-list (begin) */
+.aside-sub-list {}
+.aside-sub-list li {
+    line-height: 21px;
+}
+.aside-sub-list li a {
+    color: #2a2a2a;
+}
+/* aside-sub-list (end) */
+
+/* civco (begin) */
+.civco {
+    margin: 50px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #999;
+    padding: 20px 10px;
+    text-align: center;
+}
+.civco .text {
+    color: #4a4a4a;
+    font-size: 14px;
+    padding: 15px 0 0;
+    border-top: 4px solid #f30a0a;
+    margin: 10px 0 0;
+}
+/* civco (end) */
+
+/* awards (begin) */
+.awards {
+    background: #f3f2f2;
+    text-align: center;
+    padding: 35px 0;
+    margin: 70px 0 0;
+}
+.awards .award + .award {
+    margin: 50px 0 0;
+}
+/* awards (end) */
